@@ -3,3 +3,5 @@ services:
   wechat-chatgpt:
     image: chatgpt-api-free
     build: .
+    ports:
+      - 8080:8080
